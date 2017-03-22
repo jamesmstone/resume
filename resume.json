@@ -52,13 +52,17 @@
       ]
     },
     {
-      "company": "",
-      "position": "",
+      "company": "Mentone Grammar",
+      "position": "Contractor",
       "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": []
+      "startDate": "2016",
+      "endDate": "2016",
+      "summary": "For Mentone Grammar I implemented a system for students to keep track of their achievements and produce an offical record of their achievements upon graduation.",
+      "highlights": [
+	"Grew a greater understanding of PHP framework, Symfony",
+	"Deployed using Docker",
+	"Generated artwork using Latex"
+]
     },
     {
       "company": "Rebel Sport",
