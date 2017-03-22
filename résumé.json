@@ -1,0 +1,205 @@
+{
+  "basics": {
+    "name": "James Stone",
+    "label": "Software Developer",
+    "picture": "https://secure.gravatar.com/avatar/fadcf7596adb0a2a6369ca9645d5f0b0?size=2048",
+    "email": "jamesmstone@hotmail.com",
+    "phone": "+61 488 720 346",
+    "website": "https://blog.jamesst.one",
+    "summary": "",
+    "location": {
+      "address": "53 The Corso",
+      "postalCode": "3195",
+      "city": "Parkdale",
+      "countryCode": "AUS",
+      "region": "VIC"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "jamesmstone",
+        "url": "https://github.com/jamesmstone"
+      },
+      {
+        "network": "Linked In",
+        "username": "James Stone",
+        "url": "https://www.linkedin.com/in/james-stone-b91b82124"
+      },
+      {
+        "network": "Twitter",
+        "username": "jamesmstone711",
+        "url": "https://twitter.com/jamesmstone711"
+      },
+      {
+        "network": "Facebook",
+        "username": "JamesMichaelStone",
+        "url": "https://facebook.com/JamesMichaelStone"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Creative Analytics",
+      "position": "Software Developer",
+      "website": "https://analytics.com.au",
+      "startDate": "17/11/2015",
+      "endDate": "",
+      "summary": "For the past two years, I've worked as a software developer for Creative Analytics. Creative Analytics provides leading edge energy software and consulting services for energy trading and risk management. During that time some of my highlights have been:",
+      "highlights": [
+        "AGL Oil Deal Capture",
+        "Internal Status Page: Node - External SMS alerts and Integration with external logging tools. Responsive website with utilising React.",
+        "Licence Management System: PHP"
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Rebel Sport",
+      "position": "Sales Assistant",
+      "website": "http://www.rebelsport.com.au/",
+      "startDate": "29/4/2015",
+      "endDate": "06/3/2016",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Mentone Grammar",
+      "position": "Tudor",
+      "website": "http://www.mentonegrammar.net/",
+      "startDate": "12/3/2015",
+      "endDate": "25/2/2016",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Melbourne",
+      "area": "Computing & Software Systems",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015",
+      "endDate": "2017",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Mentone Grammar",
+      "area": "Victorian Certificate of Education",
+      "studyType": "High School",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "95.95 ATAR",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "School Prefect",
+      "date": "2014",
+      "awarder": "Mentone Grammar",
+      "summary": ""
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Server",
+      "level": "Master",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "CoreOS",
+        "Alpine Linux",
+        "Debian"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "C",
+      "fluency": ""
+    },
+    {
+      "language": "Go",
+      "fluency": ""
+    },
+    {
+      "language": "PHP",
+      "fluency": ""
+    },
+    {
+      "language": "HTML",
+      "fluency": ""
+    },
+    {
+      "language": "CSS",
+      "fluency": ""
+    },
+    {
+      "language": "JavaScript",
+      "fluency": ""
+    },
+    {
+      "language": "Java",
+      "fluency": ""
+    },
+    {
+      "language": "Haskell",
+      "fluency": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Bush walking",
+        "Melbourne University Mountaineering"
+      ]
+    },
+    {
+      "name": "Running",
+      "keywords": [
+        "Long Distance"
+      ]
+    },
+    {
+      "name": "Life Logging",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Richard King",
+      "reference": ""
+    },
+    {
+      "name": "Paul Stockdale",
+      "reference": ""
+    }
+  ]
+}
