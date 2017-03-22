@@ -85,8 +85,8 @@
       "institution": "University of Melbourne",
       "area": "Computing & Software Systems",
       "studyType": "Bachelor of Science",
-      "startDate": "2015",
-      "endDate": "2017",
+      "startDate": "2015-02-28",
+      "endDate": "2017-11-08",
       "gpa": "",
       "courses": []
     },
@@ -94,8 +94,8 @@
       "institution": "Mentone Grammar",
       "area": "Victorian Certificate of Education",
       "studyType": "High School",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2009-02-2",
+      "endDate": "2014-11-14",
       "gpa": "95.95 ATAR",
       "courses": []
     }
