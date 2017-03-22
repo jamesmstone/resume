@@ -5,5 +5,7 @@ jsonresume ()
 {
     docker run --rm -it -v "$(pwd)":/data/ svendowideit/jsonresume "$@"
 }
-jsonresume export -r résumé.json index.html
-jsonresume export -r résumé.json -f pdf resume.pdf
+jsonresume export flat.html
+jsonresume -t elegant export index.html
+
+jsonresume export -f pdf resume.pdf
