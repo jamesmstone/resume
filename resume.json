@@ -42,7 +42,7 @@
       "company": "Creative Analytics",
       "position": "Software Developer",
       "website": "https://analytics.com.au",
-      "startDate": "17/11/2015",
+      "startDate": "2015-11-17",
       "endDate": "",
       "summary": "For the past two years, I've worked as a software developer for Creative Analytics. Creative Analytics provides leading edge energy software and consulting services for energy trading and risk management. During that time some of my highlights have been:",
       "highlights": [
@@ -64,8 +64,8 @@
       "company": "Rebel Sport",
       "position": "Sales Assistant",
       "website": "http://www.rebelsport.com.au/",
-      "startDate": "29/4/2015",
-      "endDate": "06/3/2016",
+      "startDate": "2015-04-29",
+      "endDate": "2016-03-06",
       "summary": "",
       "highlights": []
     },
@@ -73,8 +73,8 @@
       "company": "Mentone Grammar",
       "position": "Tudor",
       "website": "http://www.mentonegrammar.net/",
-      "startDate": "12/3/2015",
-      "endDate": "25/2/2016",
+      "startDate": "2015-03-12",
+      "endDate": "2016-02-25",
       "summary": "",
       "highlights": []
     }
