@@ -6,7 +6,7 @@
     "email": "jamesmstone@hotmail.com",
     "phone": "+61 488 720 346",
     "website": "https://blog.jamesst.one",
-    "summary": "Hi, my name is James. I am currently in my final year of my undergrauate degree at the University of Melbourne. I also work part time at Creative Analytics.",
+    "summary": "Hi, my name is James. I am currently in my final year of my undergrauate degree in Computing & Software Systems at the University of Melbourne. I also work part time at Creative Analytics.",
     "location": {
       "address": "53 The Corso",
       "postalCode": "3195",
@@ -44,9 +44,9 @@
       "website": "https://analytics.com.au",
       "startDate": "2015-11-17",
       "endDate": "",
-      "summary": "For the past year and a half, I've worked as a software developer for Creative Analytics. Creative Analytics provides leading edge energy software and consulting services for energy trading and risk management. During that time some of my highlights have been:",
+      "summary": "For the past year and a half, I have worked as a software developer for Creative Analytics. Creative Analytics provides leading edge energy software and consulting services for energy trading and risk management. During that time some of my highlights have been:",
       "highlights": [
-        "Oil Deal Capture",
+        "Create Oil Deal Capture and Analysis System for a major utility company",
         "Internal Status Page: Node - External SMS alerts and Integration with external logging tools. Responsive website with utilising React.",
         "Licence Management System: PHP"
       ]
