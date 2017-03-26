@@ -93,7 +93,28 @@
       "startDate": "2015-02-28",
       "endDate": "2017-11-08",
       "gpa": "",
-      "courses": []
+      "courses": [
+	"Computer Systems",
+	"Software Modelling and Design",
+	"Web Information Technologies",
+	"African Music and Dance",
+	"Declarative Programming",
+	"Design of Algorithms",
+	"Elements of Data Processing",
+	"Knowledge Tecnologies",
+	"Applications of GIS",
+	"The Laptop Recording Studio",
+	"Object Oriented Software Developemt",
+	"Going Places - Travelling Smarter",
+	"Database Systems",
+	"Calculus 1",
+	"Linear Algebra",
+	"Physics 1",
+	"Understanding Planet Earth",
+	"Foundations of Algorithms",
+	"Foundations of Computing",
+	"Interactive Art Media 1"
+	]
     },
     {
       "institution": "Mentone Grammar",
