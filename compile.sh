@@ -7,5 +7,5 @@ jsonresume ()
 }
 jsonresume export flat.html
 jsonresume export -t elegant index.html
-
+sudo tee -a index.html < fork.html
 jsonresume export -f pdf resume.pdf
