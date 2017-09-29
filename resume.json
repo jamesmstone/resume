@@ -95,6 +95,10 @@
       "endDate": "2017-11-08",
       "gpa": "",
       "courses": [
+	"Models of Computation",
+	"IT Project",
+	"Engineering Computation",
+	"Surveying and Mapping",
 	"Computer Systems",
 	"Software Modelling and Design",
 	"Web Information Technologies",
