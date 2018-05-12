@@ -6,7 +6,7 @@
     "email": "jamesmstone@hotmail.com",
     "phone": "+61 488 720 346",
     "website": "https://blog.jamesst.one",
-    "summary": "Hi, my name is James Stone. I am a full time Software Developer at Creative Analytics. I recently completed my undergraduate degree in Computing & Software Systems at the University of Melbourne.",
+    "summary": "Hi, my name is James Stone. I am a full time Software Developer at Arcitecta. I recently completed my undergraduate degree in Computing & Software Systems at the University of Melbourne.",
     "location": {
       "address": "53 The Corso",
       "postalCode": "3195",
@@ -38,13 +38,23 @@
     ]
   },
   "work": [
+     {
+      "company": "Arcitecta",
+      "position": "Software Developer",
+      "website": "http://www.arcitecta.com",
+      "startDate": "2018-04-26",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+      ]
+    },
     {
       "company": "Creative Analytics",
       "position": "Software Developer",
       "website": "https://analytics.com.au",
       "startDate": "2015-11-17",
-      "endDate": "",
-      "summary": "For the past two and a half years, I have worked as a software developer for Creative Analytics. Creative Analytics provides leading edge energy software and consulting services for energy trading and risk management. During that time some of my highlights have been:",
+      "endDate": "2018-04-25",
+      "summary": "Creative Analytics provides leading edge energy software and consulting services for energy trading and risk management. During that time some of my highlights have been:",
       "highlights": [
         "Create Oil Deal Capture and Analysis System for a major utility company",
         "Internal Status Page using Node - External SMS alerts and Integration with external logging tools. Responsive website with utilising React.",
