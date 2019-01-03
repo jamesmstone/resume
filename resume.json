@@ -8,9 +8,9 @@
     "website": "https://blog.jamesst.one",
     "summary": "Hi, my name is James Stone. I am a full time Software Developer at Arcitecta. I recently completed my undergraduate degree in Computing & Software Systems at the University of Melbourne.",
     "location": {
-      "address": "53 The Corso",
-      "postalCode": "3195",
-      "city": "Parkdale",
+      "address": "",
+      "postalCode": "",
+      "city": "Melbourne",
       "countryCode": "AUS",
       "region": "VIC"
     },
