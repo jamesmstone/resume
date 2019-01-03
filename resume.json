@@ -43,8 +43,21 @@
       "position": "Software Developer",
       "website": "http://www.arcitecta.com",
       "startDate": "2018-04-26",
-      "summary": "",
+      "summary": "At Arcitecta I am working on their Mediaflux product. Mediaflux is a comprehensive data management platform. Mediaflux operates on extreme scales and is responsible for managing over 7 petabytes ( 1 petabyte = 10⁶ gigabytes ) of additional data each month.",
       "highlights": [
+      ]
+     },
+     {
+      "company": "Apter",
+      "position": "Founder",
+      "website": "http://www.apter.energy",
+      "startDate": "2018-08-01",
+      "summary": "Apter was founded in August 2018 as a specialist software and technology consulting company.In Apter's short history, it has consulted to a range of companies across many areas. These include an exercise/fitness company, a wholesale electricity market broker and Apter is currently investigating an opportunity in the Retail advertising industry.Apter has helped its customers with:",
+      "highlights": [
+	"Investigating, analysing, interpreting and presenting complex data in meaningful ways, whatever the data source",
+	"Search Engine Optimisation across all media",
+	"Developing custom web management systems",
+	"Managing servers"
       ]
     },
     {
