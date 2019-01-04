@@ -1,0 +1,712 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>James Stone</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						James Stone
+					</h1>
+					<h2>
+						Software Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">jamesmstone@hotmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+61 488 720 346</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://blog.jamesst.one">https://blog.jamesst.one</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Hi, my name is James Stone. I am a full time Software Developer at Arcitecta. I recently completed my undergraduate degree in Computing &amp; Software Systems at the University of Melbourne.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/jamesmstone">jamesmstone</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Linkedin
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/jamesmstone711">James Stone</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/jamesmstone711">jamesmstone711</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Facebook
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://facebook.com/JamesMichaelStone">JamesMichaelStone</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Arcitecta</span>
+					<span class="date">
+						2018-04-26 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.arcitecta.com">http://www.arcitecta.com</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>At Arcitecta I am working on their Mediaflux product. Mediaflux is a comprehensive data management platform. Mediaflux operates on extreme scales and is responsible for managing over 7 petabytes ( 1 petabyte = 10⁶ gigabytes ) of additional data each month.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Apter</span>
+					<span class="date">
+						2018-08-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.apter.energy">http://www.apter.energy</a>
+				</div>
+				<div class="position">
+					Founder
+				</div>
+				<div class="summary">
+					<p>Apter was founded in August 2018 as a specialist software and technology consulting company.In Apter&#x27;s short history, it has consulted to a range of companies across many areas. These include an exercise/fitness company, a wholesale electricity market broker and Apter is currently investigating an opportunity in the Retail advertising industry. Apter has helped its customers with:</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Investigating, analysing, interpreting and presenting complex data in meaningful ways, whatever the data source</li>
+					<li class="bullet">Search Engine Optimisation across all media</li>
+					<li class="bullet">Developing custom web management systems</li>
+					<li class="bullet">Managing servers</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Creative Analytics</span>
+					<span class="date">
+						2015-11-17 — 2018-04-25
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://analytics.com.au">https://analytics.com.au</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>Creative Analytics provides leading edge energy software and consulting services for energy trading and risk management. During that time some of my highlights have been:</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Create Oil Deal Capture and Analysis System for a major utility company</li>
+					<li class="bullet">Internal Status Page using Node - External SMS alerts and Integration with external logging tools. Responsive website with utilising React.</li>
+					<li class="bullet">Licence Management System and CRM using PHP - A REST API to authenticate Creative Analytic&#x27;s users. As well as a front end Angular control panel, to enable different features for different users.</li>
+					<li class="bullet">Server: Performed a range of maintenance activities on the companies external servers. (Private VPS providers, as well as the Azure Cloud)</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Mentone Grammar</span>
+					<span class="date">
+						2016-01-01 — 2018-09-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.mentonegrammar.net/">http://www.mentonegrammar.net/</a>
+				</div>
+				<div class="position">
+					Contractor
+				</div>
+				<div class="summary">
+					<p>For Mentone Grammar, I implemented a system for students to keep track of their achievements and produce an official record of their achievements upon graduation.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Grew a greater understanding of PHP framework, Symfony</li>
+					<li class="bullet">Deployed using Docker</li>
+					<li class="bullet">Generated artwork using Latex</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Rebel Sport</span>
+					<span class="date">
+						2015-04-29 — 2016-03-06
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.rebelsport.com.au/">http://www.rebelsport.com.au/</a>
+				</div>
+				<div class="position">
+					Sales Assistant
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Mentone Grammar</span>
+					<span class="date">
+						2015-03-12 — 2016-02-25
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.mentonegrammar.net/">http://www.mentonegrammar.net/</a>
+				</div>
+				<div class="position">
+					Tutor
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Mentone Grammar</span>
+					<span class="date">
+						2015-05-12 — 2016-08-12
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.mentonegrammar.net/">http://www.mentonegrammar.net/</a>
+				</div>
+				<div class="position">
+					Sports Coach
+				</div>
+				<div class="summary">
+					<p>Cross country coach</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Melbourne</span>
+					<span class="date">
+						2015-02-28 — 2017-11-08
+					</span>
+				</h4>
+				<div class="area">
+					Computing &amp; Software Systems
+				</div>
+				<div class="studyType">
+					Bachelor of Science
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Models of Computation</li>
+					<li>IT Project</li>
+					<li>Engineering Computation</li>
+					<li>Surveying and Mapping</li>
+					<li>Computer Systems</li>
+					<li>Software Modelling and Design</li>
+					<li>Web Information Technologies</li>
+					<li>African Music and Dance</li>
+					<li>Declarative Programming</li>
+					<li>Design of Algorithms</li>
+					<li>Elements of Data Processing</li>
+					<li>Knowledge Technologies</li>
+					<li>Applications of GIS</li>
+					<li>The Laptop Recording Studio</li>
+					<li>Object Oriented Software Development</li>
+					<li>Going Places - Travelling Smarter</li>
+					<li>Database Systems</li>
+					<li>Calculus 1</li>
+					<li>Linear Algebra</li>
+					<li>Physics 1</li>
+					<li>Understanding Planet Earth</li>
+					<li>Foundations of Algorithms</li>
+					<li>Foundations of Computing</li>
+					<li>Interactive Art Media 1</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Mentone Grammar</span>
+					<span class="date">
+						2009-02-02 — 2014-11-14
+					</span>
+				</h4>
+				<div class="area">
+					Victorian Certificate of Education
+				</div>
+				<div class="studyType">
+					High School
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>School Prefect</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2014-08-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Mentone Grammar</strong>
+				</div>
+				<div class="summary">
+					
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Frontend</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>React</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Backend</h4>
+				</div>
+				<ul class="keywords">
+					<li>Node</li>
+					<li>Go</li>
+					<li>PHP</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Server</h4>
+				</div>
+				<ul class="keywords">
+					<li>Docker</li>
+					<li>Kubernetes</li>
+					<li>CoreOS</li>
+					<li>Alpine Linux</li>
+					<li>Debian</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>C</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Go</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>PHP</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>HTML</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>CSS</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>JavaScript</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Java</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Haskell</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Outdoors</h4>
+				</div>
+				<ul class="keywords">
+					<li>Bush walking</li>
+					<li>Melbourne University Mountaineering</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Running</h4>
+				</div>
+				<ul class="keywords">
+					<li>Long Distance</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Life Logging</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Manager at Creative Analytics, please contact me for Richard&#x27;s contact details (+61 488 720 346 or jamesmstone@hotmail.com)</p>
+					<p class="name">
+						<strong>— Richard King</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Point of Contact for Contracting work at Mentone Grammar, please contact me for Paul&#x27;s contact details (+61 488 720 346 or jamesmstone@hotmail.com)</p>
+					<p class="name">
+						<strong>— Paul Stockdale</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
